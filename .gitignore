@@ -1,0 +1,6 @@
+/public/*
+!/public/.htaccess
+
+/.idea
+/vendor
+/node_modules
