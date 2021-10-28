@@ -4,7 +4,7 @@ require_once '../i18n/en.php';
 
 $title = $lang['legal']['title'];
 $color = 'aquamarine';
-$logo = 'Ablota_Logo_Transparent.png';
+$logo = 'Ablota_Logo.png';
 $valuesPromises = false;
 
 ?>

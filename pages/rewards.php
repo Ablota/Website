@@ -8,7 +8,7 @@ $color = 'gold';
 $logo = 'Ablota_Rewards_Icon.png';
 
 ?>
-<?php include '../layout/header.php'; ?>
+<?php include __DIR__ . '/../layout/header.php'; ?>
 				<main>
 					<section class="feature_demo2 pt_banner_inner">
 						<div class="container">
@@ -40,4 +40,4 @@ $logo = 'Ablota_Rewards_Icon.png';
 						</div>
 					</section>
 				</main>
-<?php include '../layout/footer.php'; ?>
+<?php include __DIR__ . '/../layout/footer.php'; ?>

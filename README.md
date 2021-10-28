@@ -14,38 +14,12 @@ Ablota Store federates decentralised sources into a fair, transparent and moneti
 
 Ablota Rewards enables payment for decentralised services through non-monetary reward channels.
 
-## Values & Promises
-
-Our products are built on a strong foundation of values and promises which we uphold throughout and always stand by.
-
-### Privacy
-
-Products respect and protect everyone's privacy. A minimum of data should be processed and no unnecessary third-party providers should be involved.
-
-### Quality
-
-Products meet the highest quality standards. It should always be carefully planned, properly developed and fully tested. As a Swiss company, even more so.
-
-### Open Source
-
-Products must be open source and accessible to everyone. The most suitable licence should always be chosen and the code made available on several public platforms.
-
-### Fairness
-
-Products serve all parties. A balanced equality between all customer groups and ourselves should always be ensured to maintain fairness between all.
-
-### Transparency
-
-Products must be understandable for everyone. Open Source is an important part but the processes and the business model behind it should be transparent as well.
-
-### Ethics
-
-Products deal with their ethics and act morally. Extensive thought should be given in advance to the outcome, the impact evaluated and its tenability decided.
-
 ## Template
 
-The website is based on the [**Rakon**](https://themeforest.net/item/rakon-html-landing-page-templates/27849521) template version **2.2** by **OrinoStudio**.
+The website is based on the [**Rakon**](https://themeforest.net/item/rakon-html-landing-page-templates/27849521) template version **2.3** by **OrinoStudio**.
 
 # License
+
+For our products, we are committed to publishing the code with an open source licence. Since we worked with a template in this project, we can uphold the transparency and make the source code publicly available, but unfortunately we have to copyright it.
 
 &copy; 2021 Ablota&reg;, [StarApps GmbH](https://starapps-ltd.com)

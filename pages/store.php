@@ -8,7 +8,7 @@ $color = 'blue2';
 $logo = 'Ablota_Store_Icon.png';
 
 ?>
-<?php include '../layout/header.php'; ?>
+<?php include __DIR__ . '/../layout/header.php'; ?>
 				<main>
 					<section class="feature_demo2 pt_banner_inner">
 						<div class="container">
@@ -41,21 +41,21 @@ $logo = 'Ablota_Store_Icon.png';
 								<div class="col-md-6 col-lg-4 d-none d-sm-block order-1 order-sm-1">
 									<div class="item_box item_one">
 										<div class="img_bbo">
-											<img alt="" src="/img/store/icons/bitwarden.png" />
+											<img alt="" src="/img/store/icons/bitwarden.png?v=20211028">
 										</div>
 										<h3>Bitwarden</h3>
 										<p class="c-<?php echo $color; ?>"><?php echo $lang['words']['productivity']; ?></p>
 									</div>
 									<div class="item_box item_two">
 										<div class="img_bbo">
-											<img alt="" src="/img/store/icons/newpipe.png" />
+											<img alt="" src="/img/store/icons/newpipe.png?v=20211028">
 										</div>
 										<h3>NewPipe</h3>
 										<p class="c-<?php echo $color; ?>"><?php echo $lang['words']['video_players']; ?></p>
 									</div>
 									<div class="item_box item_three">
 										<div class="img_bbo">
-											<img alt="" src="/img/store/icons/tutanota.png" />
+											<img alt="" src="/img/store/icons/tutanota.png?v=20211028">
 										</div>
 										<h3>Tutanota</h3>
 										<p class="c-<?php echo $color; ?>"><?php echo $lang['words']['communication']; ?></p>
@@ -63,28 +63,28 @@ $logo = 'Ablota_Store_Icon.png';
 								</div>
 								<div class="col-md-6 col-lg-4 order-3 order-sm-2" data-aos="fade-up" data-aos-delay="0">
 									<div class="app_mobile text-center">
-										<img class="apoo" alt="" src="/img/store/home.png" />
+										<img class="apoo" alt="" src="/img/store/home.png?v=20211028">
 										<p class="text-notice"><?php echo $lang['store']['notice']; ?></p>
 									</div>
 								</div>
 								<div class="col-md-6 col-lg-4 d-none d-sm-block order-2 order-sm-3">
 									<div class="item_box item_four">
 										<div class="img_bbo">
-											<img alt="" src="/img/store/icons/collabora-office.png" />
+											<img alt="" src="/img/store/icons/collabora-office.png?v=20211028">
 										</div>
 										<h3>Collabora Office</h3>
 										<p class="c-<?php echo $color; ?>"><?php echo $lang['words']['productivity']; ?></p>
 									</div>
 									<div class="item_box item_five">
 										<div class="img_bbo">
-											<img alt="" src="/img/store/icons/tor-browser.png" />
+											<img alt="" src="/img/store/icons/tor-browser.png?v=20211028">
 										</div>
 										<h3>Tor Browser</h3>
 										<p class="c-<?php echo $color; ?>"><?php echo $lang['words']['communication']; ?></p>
 									</div>
 									<div class="item_box item_six">
 										<div class="img_bbo">
-											<img alt="" src="/img/store/icons/mullvad-vpn.png" />
+											<img alt="" src="/img/store/icons/mullvad-vpn.png?v=20211028">
 										</div>
 										<h3>Mullvad VPN</h3>
 										<p class="c-<?php echo $color; ?>"><?php echo $lang['words']['tools']; ?></p>
@@ -163,7 +163,7 @@ $logo = 'Ablota_Store_Icon.png';
 												<div class="row justify-content-center">
 													<div class="col-lg-5 mb-4 mb-lg-0">
 														<div class="amo_pic bg-<?php echo $color; ?>">
-															<img alt="" src="/img/store/app.png" />
+															<img alt="" src="/img/store/app.png?v=20211028">
 														</div>
 													</div>
 													<div class="col-lg-6 my-auto mx-auto">
@@ -211,7 +211,7 @@ $logo = 'Ablota_Store_Icon.png';
 												<div class="row justify-content-center">
 													<div class="col-lg-5 mb-4 mb-lg-0">
 														<div class="amo_pic bg-<?php echo $color; ?>">
-															<img alt="" src="/img/store/sources.png" />
+															<img alt="" src="/img/store/sources.png?v=20211028">
 														</div>
 													</div>
 													<div class="col-lg-6 my-auto mx-auto">
@@ -259,7 +259,7 @@ $logo = 'Ablota_Store_Icon.png';
 												<div class="row justify-content-center">
 													<div class="col-lg-5 mb-4 mb-lg-0">
 														<div class="amo_pic bg-<?php echo $color; ?>">
-															<img alt="" src="/img/store/manager.png" />
+															<img alt="" src="/img/store/manager.png?v=20211028">
 														</div>
 													</div>
 													<div class="col-lg-6 my-auto mx-auto">
@@ -306,4 +306,4 @@ $logo = 'Ablota_Store_Icon.png';
 						</div>
 					</section>
 				</main>
-<?php include '../layout/footer.php'; ?>
+<?php include __DIR__ . '/../layout/footer.php'; ?>

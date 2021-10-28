@@ -45,7 +45,12 @@
 (function($) {
 	'use strict';
 
-	jQuery(document).on('ready', function() {
+	$(document).on('ready', function() {
+
+		$('html').removeClass('no-js');
+		setTimeout(function() {
+			$('body').addClass('loaded_page');
+		}, 3000);
 
 		/*-----------------------------
 		   Close the menu when clicking on any link
@@ -133,7 +138,7 @@
 		-----------------------------*/
 
 		// Add scrollspy to <body>
-		$('body').scrollspy({target: '.navbar', offset: 50});
+		// $('body').scrollspy({target: '.navbar', offset: 50});
 
 		// Add smooth scrolling on all links inside the navbar
 		$('#myNavbar a').on('click', function(event) {
@@ -235,7 +240,7 @@
 		/*-----------------------------
 		  Hide and Show Password
 		-----------------------------*/
-		$('#show_hide_password').on('click', 'a', function(event) {
+		/*$('#show_hide_password').on('click', 'a', function(event) {
 			event.preventDefault();
 			if($('#show_hide_password input').attr('type') == 'text') {
 				$('#show_hide_password input').attr('type', 'password');
@@ -246,15 +251,7 @@
 				$('#show_hide_password .hide_show span').removeClass('hidden_outlined');
 				$('#show_hide_password .hide_show span').addClass('visible_outlined');
 			}
-		});
-
-		/*-----------------------------
-		  loading before open page
-		-----------------------------*/
-		// Fakes the loading setting a timeout
-		setTimeout(function() {
-			$('body').addClass('loaded_page');
-		}, 3000);
+		});*/
 
 		/*-----------------------------
 		  Back to top with progress indicator
@@ -292,7 +289,7 @@
 		/*-----------------------------
 		  Slider and Swiper for Testimonial
 		-----------------------------*/
-		var galleryThumbs = new Swiper('.img_persong', {
+		/*var galleryThumbs = new Swiper('.img_persong', {
 			spaceBetween: 10,
 			slidesPerView: 4,
 			freeMode: true,
@@ -308,12 +305,12 @@
 			thumbs: {
 				swiper: galleryThumbs,
 			},
-		});
+		});*/
 
 		/*-----------------------------
 		  Swiper WorkSpace
 		-----------------------------*/
-		var galleryThumbs = new Swiper('.person_thumbs', {
+		/*var galleryThumbs = new Swiper('.person_thumbs', {
 			spaceBetween: 10,
 			slidesPerView: 4,
 			freeMode: true,
@@ -329,12 +326,12 @@
 			thumbs: {
 				swiper: galleryThumbs,
 			},
-		});
+		});*/
 
 		/*-----------------------------
 		Slider and Swiper for Testimonial (Interior)
 		-----------------------------*/
-		var swiper = new Swiper('.swiper_default', {
+		/*var swiper = new Swiper('.swiper_default', {
 			pagination: {
 				el: '.swiper-pagination',
 				dynamicBullets: true,
@@ -343,13 +340,13 @@
 				delay: 2500,
 				disableOnInteraction: true,
 			},
-		});
+		});*/
 
 		/*-----------------------------
 		  swip__topic
 		-----------------------------*/
 
-		var swiper = new Swiper('.swipe_basic_topic', {
+		/*var swiper = new Swiper('.swipe_basic_topic', {
 			slidesPerView: 4,
 			spaceBetween: 30,
 			freeMode: true,
@@ -375,13 +372,13 @@
 					spaceBetween: 30,
 				},
 			},
-		});
+		});*/
 
 		/*-----------------------------
 		  feature_strories
 		-----------------------------*/
 
-		var swiper = new Swiper('.feature_strories', {
+		/*var swiper = new Swiper('.feature_strories', {
 			slidesPerView: 4,
 			spaceBetween: 30,
 			navigation: {
@@ -410,47 +407,47 @@
 					spaceBetween: 30,
 				},
 			},
-		});
+		});*/
 
 		/*-----------------------------
 		  countdown Timer
 		-----------------------------*/
-		$('.countdown').countdown();
+		// $('.countdown').countdown();
 
 		/*-----------------------------
 		  progress-bar
 		-----------------------------*/
-		var delay = 400;
+		/*var delay = 400;
 		$('.progress-bar').each(function(i) {
 			$(this).delay(delay * i).animate({
 				width: $(this).attr('aria-valuenow') + '%',
 			}, delay);
-		});
+		});*/
 
 		/*-----------------------------
 		  bxslider for Logos (animation like news)
 		-----------------------------*/
-		$('.bxslider').bxSlider({
+		/*$('.bxslider').bxSlider({
 			minSlides: 1,
 			maxSlides: 8,
 			slideWidth: 160,
 			slideMargin: 0,
 			ticker: true,
 			speed: 20000,
-		});
+		});*/
 
 		/*-----------------------------
 		  COUNTER-UP JQUERY PLUGIN
 		-----------------------------*/
-		$('.counter').counterUp({
+		/*$('.counter').counterUp({
 			delay: 10,
 			time: 1000,
-		});
+		});*/
 
 		/*-----------------------------
 		  swiper__center
 		-----------------------------*/
-		var swiper = new Swiper('.swiper__center', {
+		/*var swiper = new Swiper('.swiper__center', {
 			slidesPerView: 3,
 			centeredSlides: false,
 			spaceBetween: 30,
@@ -477,7 +474,7 @@
 					spaceBetween: 30,
 				},
 			},
-		});
+		});*/
 
 		/*-----------------------------
 		  Mousehover for dropdown
@@ -525,7 +522,7 @@
 	/*-----------------------------
 	  Video Modal
 	-----------------------------*/
-	// Gets the video src from the data-src on each button
+	/*// Gets the video src from the data-src on each button
 	var $videoSrc;
 	$('.btn_video').on('click', function() {
 		$videoSrc = $(this).data('src');
@@ -542,14 +539,14 @@
 	$('#mdllVideo').on('hide.bs.modal', function(e) {
 		// a poor man's stop video
 		$('#video').attr('src', $videoSrc);
-	});
+	});*/
 
 	/*-----------------------------
 	  show Toast after (8000)
 	-----------------------------*/
-	setTimeout(() => {
+	/*setTimeout(() => {
 		$('#myTost').toast('show');
-	}, 8000);
+	}, 8000);*/
 
 	/*-----------------------------
 	  animation on Scroll AOS.js
@@ -563,7 +560,7 @@
 	/*-----------------------------
 	  cover-parallax
 	-----------------------------*/
-	var image = document.getElementsByClassName('cover-parallax');
+	/*var image = document.getElementsByClassName('cover-parallax');
 	new simpleParallax(image, {
 		delay: .6,
 		transition: 'cubic-bezier(0,0,0,1)',
@@ -589,7 +586,7 @@
 	new simpleParallax(image, {
 		delay: .6,
 		transition: 'cubic-bezier(0,0,0,1)',
-	});
+	});*/
 
 	/*-----------------------------
 	  Checkbox Select
@@ -603,7 +600,7 @@
 		feature_strories
 	  -----------------------------*/
 
-	var swiper = new Swiper('.blog-slider', {
+	/*var swiper = new Swiper('.blog-slider', {
 		slidesPerView: 3,
 		spaceBetween: 30,
 		navigation: {
@@ -632,12 +629,12 @@
 				spaceBetween: 30,
 			},
 		},
-	});
+	});*/
 
 	/*-----------------------------
 		swiper_vertical
 	  -----------------------------*/
-	var swiper = new Swiper('.swiper_vertical', {
+	/*var swiper = new Swiper('.swiper_vertical', {
 		direction: 'vertical',
 		slidesPerView: 1,
 		paginationClickable: true,
@@ -654,7 +651,7 @@
 		// mousewheel: {
 		//   enable: true
 		// },
-	});
+	});*/
 
 	/*-----------------------------
 	   tooltip
@@ -666,33 +663,33 @@
 	/*-----------------------------
 	 fixSide_scroll
    -----------------------------*/
-	var sticky = new Sticky('.fixSide_scroll');
+	// var sticky = new Sticky('.fixSide_scroll');
+
+	/*-----------------------------
+ 	ScrollMagic (init controller)
+	-----------------------------*/
+	var controller = new ScrollMagic.Controller();
+
+	['ablota-store', 'ablota-rewards', 'advantages-end-customers', 'advantages-developers', 'advantages-companies'].forEach(element => {
+		if(document.getElementById(element)) {
+			new ScrollMagic.Scene({
+				triggerElement: `#${element}`,
+				duration: 300,
+				offset: 100,
+			}).setTween(TweenMax.fromTo(
+				`#${element} .amo_pic > img`,
+				3, {
+					top: 90,
+				}, {
+					top: -280,
+					repeat: -1,
+					yoyo: true,
+					ease: Circ.easeInOut,
+				},
+			)).addIndicators({
+				name: 'loop',
+			}).addTo(controller);
+		}
+	});
 
 }(jQuery));
-
-/*-----------------------------
-  ScrollMagic (init controller)
------------------------------*/
-var controller = new ScrollMagic.Controller();
-
-['ablota-store', 'ablota-rewards', 'advantages-end-customers', 'advantages-developers', 'advantages-companies'].forEach(element => {
-	if(document.getElementById(element)) {
-		new ScrollMagic.Scene({
-			triggerElement: `#${element}`,
-			duration: 300,
-			offset: 100,
-		}).setTween(TweenMax.fromTo(
-			`#${element} .amo_pic > img`,
-			3, {
-				top: 90,
-			}, {
-				top: -280,
-				repeat: -1,
-				yoyo: true,
-				ease: Circ.easeInOut,
-			},
-		)).addIndicators({
-			name: 'loop',
-		}).addTo(controller);
-	}
-});

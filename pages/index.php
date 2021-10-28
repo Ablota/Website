@@ -1,11 +1,11 @@
 <?php
 
 $color = 'aquamarine';
-$logo = 'Ablota_Logo_Transparent.png';
+$logo = 'Ablota_Logo.png';
 $valuesPromises = false;
 
 ?>
-<?php include '../layout/header.php'; ?>
+<?php include __DIR__ . '/../layout/header.php'; ?>
 				<main>
 					<section class="demo_1 banner_section banner_demo8 demo__charity">
 						<div class="container">
@@ -18,7 +18,7 @@ $valuesPromises = false;
 								</div>
 								<div class="col-lg-6 ml-auto order-1 order-lg-1">
 									<div class="illustration__ch">
-										<img class="img-fluid" alt="" src="/img/index/dream.svg">
+										<img class="img-fluid" alt="" src="/img/index/dream.svg?v=20211028">
 									</div>
 								</div>
 							</div>
@@ -105,7 +105,7 @@ $valuesPromises = false;
 							<div class="row justify-content-center">
 								<div class="col-lg-5 mb-4 mb-lg-0">
 									<div class="amo_pic bg-blue2">
-										<img alt="" src="/img/store/home.png" />
+										<img alt="" src="/img/store/home.png?v=20211028">
 									</div>
 								</div>
 								<div class="col-lg-6 my-auto mx-auto">
@@ -191,11 +191,11 @@ $valuesPromises = false;
 								</div>
 								<div class="col-lg-5 mt-4 mt-lg-0 ">
 									<div class="amo_pic bg-gold">
-										<img alt="" src="/img/rewards/home.png" />
+										<img alt="" src="/img/rewards/home.png?v=20211028">
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
 				</main>
-<?php include '../layout/footer.php'; ?>
+<?php include __DIR__ . '/../layout/footer.php'; ?>

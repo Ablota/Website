@@ -5,3 +5,17 @@
 .noscript-hide {
 	display: none !important;
 }
+
+html.no-js {
+	.loading_overlay {
+		@extend .noscript-hide;
+	}
+
+	main {
+		margin-top: 50px;
+	}
+}
+
+[data-aos] {
+	pointer-events: auto !important;
+}

@@ -1,5 +1,5 @@
-/public/*
-!/public/.htaccess
+/public/**/
+/public/mix-manifest.json
 
 /.idea
 /vendor

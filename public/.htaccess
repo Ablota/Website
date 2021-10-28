@@ -28,4 +28,8 @@
 	RewriteRule ^rewards/?$ pages/rewards.php [QSA,L]
 	RewriteRule ^legal/?$ pages/legal.php [QSA,L]
 	RewriteRule ^/?$ pages/index.php [QSA,L]
+
+	ErrorDocument 403 /pages/errors/403.php
+	ErrorDocument 404 /pages/errors/404.php
+	ErrorDocument 500 /pages/errors/500.php
 </IfModule>

@@ -21,6 +21,10 @@ $colors: ('aquamarine': #17e79b, 'gold': #ffce53, 'blue2': #3875f7);
 		background-color: $value;
 		color: #ffffff;
 	}
+
+	.after-#{$name}-hover:hover::after {
+		color: $value;
+	}
 }
 
 .logo {

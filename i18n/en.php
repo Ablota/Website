@@ -148,6 +148,18 @@ $lang = [
 		],
 		'date' => 'Published on 25. September 2021 – Effective from 25. October 2021',
 	],
+	'403' => [
+		'title' => '403 – Forbidden',
+		'text' => 'You do not have permission to access this page.',
+	],
+	'404' => [
+		'title' => '404 – Page Not Found',
+		'text' => 'Unfortunately, the page you requested does not exist or no longer exists. Please return to the homepage.',
+	],
+	'500' => [
+		'title' => '500 – Server Error',
+		'text' => 'Unfortunately, an unexpected server error occurred. Please try again or wait some time.',
+	],
 	'words' => [
 		'by' => 'by',
 		'our' => 'Our',
@@ -160,5 +172,6 @@ $lang = [
 		'customers' => 'Customers',
 		'coming_soon' => 'Coming Soon',
 		'learn_more' => 'Learn More',
+		'toggle_navigation' => 'Toggle Navigation',
 	],
 ];
